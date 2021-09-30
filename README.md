@@ -1,7 +1,7 @@
 # Typography CSS library
 **Author:** *Ondřej Váňa*
 ## Demo site
-Link to **[demo](http://www.github.io)** site for preview.
+Link to **[demo](https://pslib-cz.github.io/2021l4web-typographic-library-vanaondrej/)** site for preview.
 ## Dependecies
 ...
 ## Implementation
