@@ -11,6 +11,11 @@ body {
     background-color: var(--black);
 }
 
+section{
+    padding: 1.5em 0.5em;
+    max-width: 1200px;
+}
+
 .page-header {
     background-color: var(--black);
     border-bottom: var(--nblue) medium solid;
@@ -59,6 +64,7 @@ body {
 }
 
 .page-container__element1{
+    display: inline-block;
     position: relative;
     padding-bottom: 0.2em;
     padding-top: 1em;
@@ -109,10 +115,14 @@ body {
     transition: 0.3s;
 }
 
-.page-container h3{
+.page-container2 h3{
     margin: 0;
     margin-left: 1rem;
     margin-bottom: 1em;
+}
+
+.page-container2 p{
+    margin-bottom: 1rem;
 }
 
 
