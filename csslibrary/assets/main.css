@@ -11,12 +11,16 @@ body {
     background-color: var(--black);
 }
 
-section{
+section {
     padding: 1.5em 0.5em;
     max-width: 1200px;
 }
 
-::selection{
+table{
+    margin-left: 1rem;
+}
+
+::selection {
     background-color: var(--gblue);
 }
 
@@ -67,7 +71,7 @@ section{
     background-color: var(--black);
 }
 
-.page-container__element1{
+.page-container__element1 {
     display: inline-block;
     position: relative;
     padding-bottom: 0.2em;
@@ -78,7 +82,8 @@ section{
 }
 
 
-.page-container__element1::after{
+
+.page-container__element1::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -91,12 +96,16 @@ section{
     transition: transform 0.5s ease-out
 }
 
-.page-container__element1:hover::after{
+.page-container__element1:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
 
-.page-container__element2{
+.page-container__element1 p {
+    max-width: 30vw;
+}
+
+.page-container__element2 {
     text-align: center;
     display: flex;
     flex-direction: row;
@@ -105,43 +114,59 @@ section{
     margin: 0.5rem 1rem 0.5rem 1rem;
 }
 
-.page-container__element2__modificator{
+.page-container__element2__modificator {
     margin: 0;
     padding: 1rem;
 }
 
-.page-container__element2__modificator:hover{
+.page-container__element2__modificator:hover {
     color: var(--gblue);
     transition: 0.3s;
 }
 
-.page-container__element2__modificator:not(:hover){
+.page-container__element2__modificator:not(:hover) {
     transition: 0.3s;
 }
 
-.page-container2 h3{
+.page-container2 h3 {
     margin: 0;
     margin-left: 1rem;
     margin-bottom: 1em;
 }
 
-.page-container2 p{
+.page-container2__element0 p {
     margin-bottom: 1rem;
 }
 
-.page-container2__element1 ul{
+.page-container2__element1 ul {
     padding: 0;
+    margin-top: 0;
 }
-.page-container2__element1 li{
+
+.page-container2__element1 li {
     list-style: none;
     padding: 0.5em 0 0.5em 1rem;
 }
 
-.page-container2__element2{
+.page-container2__element2 {
     display: flex;
     flex-direction: row;
 }
 
+.page-container2__element2 li {
+    margin-bottom: 0.5em;
+}
 
+.page-container2 blockquote {
+    margin-left: 1rem;
+}
 
+.page-container2__element3 p {
+    margin: 0;
+    font-style: italic;
+    padding-left: 1rem;
+}
 
+.page-container2__element4 q {
+    margin-left: 1rem;
+}

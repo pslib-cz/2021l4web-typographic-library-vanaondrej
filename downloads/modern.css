@@ -1,3 +1,11 @@
+:root {
+    --black: #0b0c10;
+    --dblue: #1f2833;
+    --lgrey: #c5c6c7;
+    --nblue: #66fcf1;
+    --gblue: #45a29e;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -77,6 +85,28 @@ mark{
     color: white;
 }
 
-ul li{
+ul{
     list-style: square;
+}
+
+ol{
+    list-style: decimal;
+}
+
+q{
+    font-style: italic;
+}
+
+blockquote{
+    font-style: italic;
+    border-left: 0.2em solid var(--gblue);
+    padding: 1rem
+}
+
+table{
+    width: 100%;
+}
+
+table tbody tr:first-child th{
+    background-color: var(--gblue);
 }
