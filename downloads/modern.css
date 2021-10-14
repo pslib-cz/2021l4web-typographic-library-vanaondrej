@@ -71,3 +71,12 @@ text-decoration: line-through;
 small{
 font-size: 0.75rem;
 }
+
+mark{
+    background-color: var(--gblue);
+    color: white;
+}
+
+ul li{
+    list-style: square;
+}

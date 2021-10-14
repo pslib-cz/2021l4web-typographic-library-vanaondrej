@@ -16,6 +16,10 @@ section{
     max-width: 1200px;
 }
 
+::selection{
+    background-color: var(--gblue);
+}
+
 .page-header {
     background-color: var(--black);
     border-bottom: var(--nblue) medium solid;
@@ -124,5 +128,20 @@ section{
 .page-container2 p{
     margin-bottom: 1rem;
 }
+
+.page-container2__element1 ul{
+    padding: 0;
+}
+.page-container2__element1 li{
+    list-style: none;
+    padding: 0.5em 0 0.5em 1rem;
+}
+
+.page-container2__element2{
+    display: flex;
+    flex-direction: row;
+}
+
+
 
 
