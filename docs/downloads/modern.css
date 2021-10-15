@@ -107,6 +107,31 @@ table{
     width: 100%;
 }
 
-table tbody tr:first-child th{
+th, td{
     background-color: var(--gblue);
+    padding: 0.7rem;
 }
+
+
+figure{
+    display: block;
+    width: 500px;
+    margin-bottom: 1em;
+}
+
+
+figure a{
+    display: block;
+}
+
+figure img{
+    width: 100%;
+    height: auto;
+}
+
+figure figcaption{
+    font-size: 15px;
+    border-left: 0.1em solid var(--lgrey);
+    padding-left: 0.5em;
+}
+

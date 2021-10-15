@@ -170,3 +170,11 @@ table{
 .page-container2__element4 q {
     margin-left: 1rem;
 }
+
+.page-container2__element4{
+    margin-bottom: 1em;
+}
+
+.page-container2__element5{
+    width: 70%;
+}
