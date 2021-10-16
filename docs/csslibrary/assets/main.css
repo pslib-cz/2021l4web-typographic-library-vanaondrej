@@ -110,8 +110,10 @@ table{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    margin: 0.5rem 1rem 0.5rem 1rem;
+    margin: 1rem;
+}
+.page-container__element2 h1{
+    padding-left: 0;
 }
 
 .page-container__element2__modificator {
@@ -177,4 +179,25 @@ table{
 
 .page-container2__element5{
     width: 70%;
+}
+
+.page-container3__element1 figure{
+    margin: 0;
+    margin-left: 1rem;
+}
+
+.page-container2__element7 pre{
+    margin-left: 1rem;
+}
+
+.page-container2__element6__element1{
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+
+table{
+    margin-bottom: 1rem;
 }

@@ -33,105 +33,150 @@ p {
 }
 
 
-/*pc*/
-@media (min-width: 900px) {
-    h1 {
-        font-size: 40px;
-    }
 
-    h2 {
-        font-size: 30px;
-    }
-
-    h3 {
-        font-size: 25px;
-    }
-
-    h4 {
-        font-size: 22px;
-    }
-
-    h5 {
-        font-size: 20px;
-    }
-
-    h6 {
-        font-size: 18px;
-    }
+h1 {
+    font-size: 40px;
 }
 
-b{
-font-weight: 800;
+h2 {
+    font-size: 30px;
 }
 
-i{
-font-style: italic;
+h3 {
+    font-size: 25px;
 }
 
-u{
-text-decoration: underline;
+h4 {
+    font-size: 22px;
 }
 
-s{
-text-decoration: line-through;
+h5 {
+    font-size: 20px;
 }
 
-small{
-font-size: 0.75rem;
+h6 {
+    font-size: 18px;
 }
 
-mark{
+
+b {
+    font-weight: 800;
+}
+
+i {
+    font-style: italic;
+}
+
+u {
+    text-decoration: underline;
+}
+
+s {
+    text-decoration: line-through;
+}
+
+small {
+    font-size: 0.75rem;
+}
+
+mark {
     background-color: var(--gblue);
     color: white;
 }
 
-ul{
+
+ul {
     list-style: square;
 }
 
-ol{
+ol {
     list-style: decimal;
 }
 
-q{
+
+q {
     font-style: italic;
 }
 
-blockquote{
+blockquote {
     font-style: italic;
     border-left: 0.2em solid var(--gblue);
     padding: 1rem
 }
 
-table{
+
+table {
     width: 100%;
 }
 
-th, td{
+th,
+td {
     background-color: var(--gblue);
     padding: 0.7rem;
 }
 
+button, .btn {
+    display: inline-block;
+    cursor: pointer;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0 1rem;
+    color: white;
+    background-color: var(--gblue);
+    border: none;
+}
 
-figure{
+.btn-outline {
+    background-color: transparent;
+    border: 0.1em solid var(--gblue);
+}
+
+.btn-outline:hover{
+    background-color: var(--gblue);
+    transition: 0.3s linear;
+}
+
+.btn-normal:hover {
+    color: var(--lgrey);
+    transition: 0.3s linear;
+}
+
+.btn-normal:not(:hover) {
+    transition: 0.3s linear;
+}
+
+.btn-outline:not(:hover) {
+    transition: 0.3s linear;
+}
+
+pre{
+    border-left: 0.2em solid var(--lgrey);
+}
+
+code{
+    display: block;
+    background-color: var(--gblue);
+    max-width: 500px;
+}
+
+figure {
     display: block;
     width: 500px;
     margin-bottom: 1em;
 }
 
-
-figure a{
+figure a {
     display: block;
 }
 
-figure img{
-    width: 100%;
+figure img {
+    width: 70%;
     height: auto;
 }
 
-figure figcaption{
+figure figcaption {
     font-size: 15px;
     border-left: 0.1em solid var(--lgrey);
     padding-left: 0.5em;
 }
-
