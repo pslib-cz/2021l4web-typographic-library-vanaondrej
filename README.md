@@ -13,7 +13,7 @@ The implementation of this gallery is very simple. You just need to follow these
  2. Put **modern.css** beside your other .css files
  3. Link it in your .html file as a child of  `<head>`
 ```html
-<link href="modrrn.css" rel="stylesheet">
+<link href="modern.css" rel="stylesheet">
 ```
 
 ## Components of MODERN
@@ -114,4 +114,70 @@ Using these is very simple:
 </blockquote>
 ```
 
-###
+### Table
+Table is defined by tag `<table>` and contains these tags:
+`<tbody> <tr> <th> <td>`
+The structure of table is following:
+```html
+<table>
+	<tbody>
+		<tr>
+			<th>Name</th>
+			<th>Job</th>
+			<th>Age</th>
+		</tr>
+		<tr>
+			<td>Ondra</td>
+			<td>Photograph</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Adam</td>
+			<td>Senior developer</td>
+			<td>18</td>
+		</tr>
+		<tr>
+			<td>Thomas</td>
+			<td>Guitarist</td>
+			<td>18</td>
+		</tr>
+	</tbody>
+</table>
+```
+
+### Buttons
+There are 2 design types of buttons in **MODERN**.
+Both are defined by tag `<button>`.
+There are 2 optional classes - `.btn-outline` and `.btn-normal`. You can see the difference on the **[MODERN demo](https://pslib-cz.github.io/2021l4web-typographic-library-vanaondrej/)** site.
+Structure:
+```html
+<button  class="btn-normal">Button</button>
+<button  class="btn-outline">Button</button>
+```
+
+### Code
+Tag `<code>`should be used mainly with tag `<pre>`, which keeps the same text structure.
+```html
+<pre>
+	<code>
+body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	background: radial-gradient;
+	overflow: hidden;
+}
+	</code>
+</pre>
+```
+
+### Pictures
+You can insert pictures by tag `<img>`.
+Structure is following:
+```html
+<figure>
+	<img  src="./images/2.jpg"  alt="auto">
+	<figcaption>BMW M2</figcaption>
+</figure>
+```
